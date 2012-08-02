@@ -1,0 +1,3 @@
+alpha=`zenity --scale --text "Brightness" --min-value=10 --max-value=100 --value=50`
+alpha=`echo $alpha / 100 | bc -l`
+`xrandr --output LVDS1 --brightness $alpha`

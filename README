@@ -1,0 +1,8 @@
+My Screen Brightness was not working in 12.04 (even it didn't work in 11.10) i was behind it for since long time.
+At last i got a command.
+
+xrandr --output LVDS1 --brightness x	(x- constant between 0.1 to 10 i guess)
+
+I wrapped it Zenity Scale. 
+Simple three line shell script, GUI scale for adjusting the screen brightness.
+
